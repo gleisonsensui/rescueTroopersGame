@@ -6,17 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rescue Troopers</title>
     <link rel="stylesheet" href="./styles/styleSheets.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
 <body>
-    <div class="container">
+    <div id="container">
 
-        <div class="background-game">
+        <div id="background-game">
 
-            <div class="start-game">
+            <div id="start-game" onclick="startGame()">
                 <h1>Rescue Troopers</h1>
                 <h2>tip tools</h2>
                 <p>Utilize a tecla <strong>W</strong> para movimentar o helicoptero para cima. A tecla <strong>S</strong> para movimentar o helicoptero para baixo. A tecla <strong>D</strong> para movimentar para <strong>atirar</strong>.</p>
-                <p>Clique aqui para começar</p>
+                <button id="bt-start">Clique aqui</button>
             </div> <!--Menu de inicio-->
 
         </div> <!--Background-->
@@ -24,5 +39,20 @@
     </div> <!--Container-->
 
 
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/app.js"></script>
+
+<!--    <script>
+
+$(`#start-game`).hide();
+
+$("#background-game").append("<div id='player'></div>");
+
+    </script>
+-->
+
+
 </body>
 </html>
+
+
